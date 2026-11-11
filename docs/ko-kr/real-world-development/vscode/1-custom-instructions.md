@@ -205,7 +205,7 @@ Tailspin Toys에는 개발 관행에 관한 표준과 요구 사항이 있습니
 브랜치를 푸시했으니 지침 표준 이슈와 연결된 풀 리퀘스트를 만듭니다. 직접 만들 수도 있지만 이미 연결된 GitHub 도구를 사용해 Copilot에 이슈를 찾고 이슈를 해결하는 PR을 만든 뒤 병합하도록 요청합니다.
 
 > [!NOTE]
-> 이 연습은 Copilot이 사용자를 대신해 GitHub 작업을 수행하는 첫 번째 단계입니다. 프로젝트 템플릿에 GitHub 도구가 이미 연결되어 있어 별도로 설정할 필요가 없습니다. Copilot이 처음으로 도구를 사용하면 VS Code에서 GitHub 로그인을 요청할 수 있습니다. 안내에 따라 로그인합니다. 이후 연습에서 Model Context Protocol을 살펴봅니다.
+> 이 연습은 Copilot이 사용자를 대신해 GitHub 작업을 수행하는 첫 번째 단계입니다. 프로젝트 템플릿에 GitHub 도구가 이미 연결되어 있어 별도로 설정할 필요가 없습니다. Copilot이 처음으로 도구를 사용하면 VS Code에서 GitHub 로그인을 요청할 수 있습니다. 안내에 따라 로그인합니다. 이후 연습에서 모델 컨텍스트 프로토콜(Model Context Protocol)을 살펴봅니다.
 
 1. Codespace에서 Copilot Chat을 엽니다.
 2. <kbd>Control</kbd>+<kbd>Command</kbd>+<kbd>I</kbd>(Mac) 또는 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>I</kbd>(Windows/Linux)를 눌러 Copilot Chat 보기를 열고 에이전트 선택기에서 **Agent**가 선택되었는지 확인합니다.

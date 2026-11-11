@@ -11,18 +11,18 @@ lastUpdated: 2026-06-30
 
 이 연습에서는 다음을 수행합니다.
 
-- Model Context Protocol(MCP)이 무엇이며 MCP 서버가 Copilot에 도구를 추가하는 방식을 알아봅니다.
+- 모델 컨텍스트 프로토콜(Model Context Protocol, MCP)이 무엇이며 MCP 서버가 Copilot에 도구를 추가하는 방식을 알아봅니다.
 - 작업 공간에 Playwright MCP 서버를 추가합니다.
 - Copilot에 브라우저에서 필터링 기능을 수동으로 테스트하도록 요청합니다.
 - 브랜치를 게시하고 필터링 작업의 풀 리퀘스트를 엽니다.
 
-## Model Context Protocol(MCP)이란?
+## 모델 컨텍스트 프로토콜(MCP)이란?
 
-에이전트 모드는 편집기 외부의 도구를 사용할 수 있을 때 더욱 강력해집니다. Model Context Protocol(MCP)은 Copilot이 외부 도구 및 서비스와 통신하는 표준입니다.
+에이전트 모드는 편집기 외부의 도구를 사용할 수 있을 때 더욱 강력해집니다. 모델 컨텍스트 프로토콜(MCP)은 Copilot이 외부 도구 및 서비스와 통신하는 표준입니다.
 
 ![컨텍스트, LLM, MCP 서버 및 VS Code 확장이 제공하는 도구를 포함해 에이전트 모드가 상호 작용하는 방식을 보여 주는 다이어그램](../../../_images/ex1-mcp-diagram.png)
 
-[Model Context Protocol(MCP)](https://github.blog/ai-and-ml/llms/what-the-heck-is-mcp-and-why-is-everyone-talking-about-it/)은 AI 에이전트가 외부 도구 및 서비스와 통신할 수 있도록 합니다. MCP를 사용하면 리소스를 통해 최신 정보를 확인하고 도구를 사용해 사용자를 대신하여 작업을 수행할 수 있습니다.
+[모델 컨텍스트 프로토콜(MCP)](https://github.blog/ai-and-ml/llms/what-the-heck-is-mcp-and-why-is-everyone-talking-about-it/)은 AI 에이전트가 외부 도구 및 서비스와 통신할 수 있도록 합니다. MCP를 사용하면 리소스를 통해 최신 정보를 확인하고 도구를 사용해 사용자를 대신하여 작업을 수행할 수 있습니다.
 
 에이전트는 MCP 서버를 통해 도구와 리소스에 접근합니다. MCP 서버는 에이전트와 외부 도구 및 서비스(기존 API나 NPM 패키지 같은 로컬 도구 포함) 사이의 연결 역할을 합니다. 각 MCP 서버에서 에이전트가 사용할 수 있는 도구와 리소스를 제공합니다.
 
@@ -151,7 +151,7 @@ github.com 또는 GitHub CLI를 비롯해 여러 방법으로 풀 리퀘스트�
 
 이 연습에서는 다음을 수행했습니다.
 
-- Model Context Protocol(MCP)이 무엇이며 MCP 서버가 Copilot에 도구를 추가하는 방식을 알아봤습니다.
+- 모델 컨텍스트 프로토콜(MCP)이 무엇이며 MCP 서버가 Copilot에 도구를 추가하는 방식을 알아봤습니다.
 - Playwright MCP 서버를 작업 공간에 추가했습니다.
 - Playwright MCP를 사용해 브라우저에서 필터링 기능을 직접 테스트했습니다.
 - 브랜치를 게시하고 필터링 작업의 풀 리퀘스트를 열었습니다.

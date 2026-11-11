@@ -7,7 +7,7 @@ lastUpdated: 2026-06-30
 
 ## 사용자 지정 에이전트란?
 
-GitHub Copilot의 [사용자 지정 에이전트][custom-agents-concept]는 개발 워크플로의 특정 작업이나 영역에 맞춘 전문 AI 도우미를 만들 수 있게 합니다. 리포지토리의 `.github/agents` 폴더에 Markdown 파일로 에이전트를 정의하면 Copilot이 특정 작업을 더 효과적으로 수행하도록 집중된 지침, 모범 사례, 코딩 패턴, 도메인 지식을 제공할 수 있습니다. 팀은 접근성 규정을 적용하는 에이전트, [WCAG][wcag]를 따르는 에이전트, 보안 코딩 관행을 적용하는 에이전트, 일관된 테스트 패턴을 유지하는 에이전트처럼 전문 지식을 재사용 가능한 에이전트로 정리할 수 있습니다.
+GitHub Copilot의 [사용자 지정 에이전트][custom-agents-concept]는 개발 워크플로의 특정 작업이나 영역에 맞춘 전문 AI 도우미를 만들 수 있게 합니다. 리포지토리의 `.github/agents` 폴더에 Markdown 파일로 에이전트를 정의하면 Copilot이 특정 작업을 더 효과적으로 수행하도록 집중된 지침, 모범 사례, 코딩 패턴, 도메인 지식을 제공할 수 있습니다. 팀은 [웹 콘텐츠 접근성 지침(Web Content Accessibility Guidelines, WCAG)][wcag]을 준수하는 접근성 에이전트, 보안 코딩 관행을 따르는 보안 에이전트, 일관된 테스트 패턴을 유지하는 테스트 에이전트처럼 전문 지식을 재사용 가능한 에이전트로 정리할 수 있습니다.
 
 사용자 지정 에이전트는 프로젝트의 `.github/agents` 폴더 또는 전역 `~/.copilot/agents` 폴더에 Markdown 파일로 정의합니다. 각 파일에는 최소한 `name`과 `description`이 포함된 YAML frontmatter가 있고, 그 뒤에 에이전트의 동작 방식, 전문 지식, 지침을 정의하는 Markdown 프롬프트가 이어집니다.
 
